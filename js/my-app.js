@@ -1319,6 +1319,7 @@ $(document).on('blur', '#txtcustid', function () {
             } else {
                 myApp.alert(msg.message);
                 $('#txtcustid').focus();
+                return false;
             }
         }
     });

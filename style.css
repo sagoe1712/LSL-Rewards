@@ -160,7 +160,7 @@ input[type=text]:focus,input[type=email]:focus,input[type=number]:focus,input[ty
   background-color: #3D1A57;
 }
 .panel-left .content-block {
-  background: linear-gradient(#6107D0, #8002D9);
+  background: #3D1A57 none repeat scroll 0 0;
 }
 .panel .list-menu .list-group ul li.divider {
   background: inherit;
@@ -962,10 +962,10 @@ margin-bottom: 10px;}
   width:100% !important;
 }
 .button.button-big {
-  background: linear-gradient(#01A2FE, #00CEE0);
+  background: #FCB017 none repeat scroll 0 0;
 }
 .button.button-big-purple {
-  background: linear-gradient(#01A2FE, #00CEE0);
+  background: #3D1A57 none repeat scroll 0 0;
 }
 
 .contact-form {
@@ -1576,7 +1576,7 @@ div [data-page="shopping-cart"] .inputtype, div [data-page="experience-cart"] .i
 }
 
 .yellow-text{
-  color: #01A2FE !important;
+  color: #FCB017 !important;
 }
 
 .purple-text{
