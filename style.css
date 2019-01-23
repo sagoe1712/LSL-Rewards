@@ -157,10 +157,10 @@ input[type=text]:focus,input[type=email]:focus,input[type=number]:focus,input[ty
   font-weight: bolder;
 }
 .panel-left {
-  background-color: #3D1A57;
+  background-color: linear-gradient(#6107D0, #8002D9);
 }
 .panel-left .content-block {
-  background: #3D1A57 none repeat scroll 0 0;
+  background: linear-gradient(#6107D0, #8002D9);
 }
 .panel .list-menu .list-group ul li.divider {
   background: inherit;
@@ -168,7 +168,7 @@ input[type=text]:focus,input[type=email]:focus,input[type=number]:focus,input[ty
   padding: 50px 25px 30px;
 }
 .panel {
-  background-color: #3D1A57;
+  background-color: linear-gradient(#6107D0, #8002D9);
   border: 0 solid transparent;
   border-radius: 0;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -332,7 +332,7 @@ input[type=text]:focus,input[type=email]:focus,input[type=number]:focus,input[ty
   height: auto;
 }
 .ks-slider-custom .swiper-pagination .swiper-pagination-bullet {
-  background: #3D1A57 none repeat scroll 0 0;
+  background: linear-gradient(#6107D0, #8002D9);
   border: medium none;
   height: 6px;
   width: 13px;
@@ -343,7 +343,7 @@ input[type=text]:focus,input[type=email]:focus,input[type=number]:focus,input[ty
   border:none;
 }
 .slider-area .swiper-slide::after {
-  background-color: #000000;
+  /*background-color: #000000;*/
   content: "";
   height: 100%;
   left: 0;
@@ -726,7 +726,7 @@ h1.product_title {
   width: 90px;
 }
 .quantity a {
-  background: #3D1A57 none repeat scroll 0 0;
+  background: linear-gradient(#6107D0, #8002D9);
   border: medium none;
   border-radius: 5px;
   box-shadow: none;
@@ -962,10 +962,10 @@ margin-bottom: 10px;}
   width:100% !important;
 }
 .button.button-big {
-  background: #FCB017 none repeat scroll 0 0;
+  background: linear-gradient(#01A2FE, #00CEE0);
 }
 .button.button-big-purple {
-  background: #3D1A57 none repeat scroll 0 0;
+  background: linear-gradient(#01A2FE, #00CEE0);
 }
 
 .contact-form {
@@ -1406,7 +1406,7 @@ tfoot{border-right: 1px solid #ccc;border-bottom: 1px solid #ccc;}
   color: #000;
 }
 .inputbox > span {
-  color: #3D1A57;
+  color: linear-gradient(#6107D0, #8002D9);
 }
 .inputbox {
   padding: 11px 0;
@@ -1492,7 +1492,7 @@ tfoot{border-right: 1px solid #ccc;border-bottom: 1px solid #ccc;}
 
   padding: 4% 13% !important;
   height: auto !important;
-  background: #3D1A57 !important;
+  background: linear-gradient(#01A2FE, #00CEE0) !important;
   border: none !important;
   font-weight: bolder !important;
   border-radius:5px !important;
@@ -1538,7 +1538,7 @@ tfoot{border-right: 1px solid #ccc;border-bottom: 1px solid #ccc;}
 }
 
 .btn-checkout{
-  background: #3D1A57 !important;
+  background: linear-gradient(#01A2FE, #00CEE0) !important;
   color: #fff !important;
   padding: 5px;
   border-radius: 5px;
@@ -1550,7 +1550,7 @@ tfoot{border-right: 1px solid #ccc;border-bottom: 1px solid #ccc;}
 }
 
 .btn-cancel{
-  color: #3D1A57 !important;
+  color: linear-gradient(#01A2FE, #00CEE0) !important;
   border: 1px solid #3D1A57 !important;
   padding: 5px;
   border-radius: 5px;
@@ -1576,7 +1576,7 @@ div [data-page="shopping-cart"] .inputtype, div [data-page="experience-cart"] .i
 }
 
 .yellow-text{
-  color: #FCB017 !important;
+  color: #01A2FE !important;
 }
 
 .purple-text{
@@ -1767,7 +1767,7 @@ u{
 }
 
 .row-back{
-  background: #3D1A57 !important;
+  background: linear-gradient(#6107D0, #8002D9) !important;
   -moz-border-radius-topleft: 5px !important;
   -moz-border-radius-topright: 5px !important;
   border-radius-topleft: 5px !important;
@@ -1881,7 +1881,7 @@ img.food-img {
 .btn-mealredeem{
   width: 100% !important;
   color: #fff !important;
-  background: #3D1A57 !important;
+  background: linear-gradient(#01A2FE, #00CEE0) !important;
   border: none !important;
 }
 
@@ -1951,7 +1951,7 @@ width:100px !important;
 }
 
 .btn-event-redeem, .btn-showtimes{
-  background: #3D1A57 !important;
+  background: linear-gradient(#01A2FE, #00CEE0) !important;
   color: #fff !important;
   border: 1px solid #3D1A57 !important;
 }
@@ -2010,7 +2010,7 @@ width:100px !important;
   margin-top: 30px !important;
   padding: 4% 0%;
   color:#fff;
-  background: #3D1A57;
+  background: linear-gradient(#01A2FE, #00CEE0);
   width: 91% !important;
   display: none;
   line-height: normal !important;
