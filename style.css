@@ -1323,7 +1323,7 @@ select.inputtype{
   border-bottom: 1px solid #ccc !important;
 }
 
-.accordion-item .item-title span{background: #ec4445;padding:5px;color: #fff;}
+.accordion-item .item-title span{background: linear-gradient(#6107D0, #8002D9);padding:5px;color: #fff;}
 .list-block .item-content {
   align-items: center;
   background: #f1f1f1 none repeat scroll 0 0;
@@ -1988,7 +1988,7 @@ width:100px !important;
 
 .cat-filters-head{
   color:#fff;
-  background: #3D1A57;
+  background: linear-gradient(#6107D0, #8002D9);
   text-align:center;
   padding: 20px;
 }
