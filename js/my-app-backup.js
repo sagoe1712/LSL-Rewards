@@ -1287,45 +1287,6 @@ myApp.onPageInit('bill-cart', function (page) {
 
 });
 
-$(document).on('blur', '#txtcustid', function () {
-  var customer_id = $.trim($('#txtcustid').val());
-  if(customer_id == null){
-      myApp.alert("Enter the "+customer_id_text)
-      return false;
-  }else {
-    let payload = {
-
-        signature: prod_signature,
-        customer_id: customer_id
-
-    }
-
-
-    $.ajax({
-
-        type: "POST",
-        //url: "billpayment.php",
-        url: "http://rewardsboxnigeria.com/rewardsbox/api/v1/?api=verify_product_id",
-        headers: {token: token},
-        data: payload,
-        dataType: "json",
-        beforeSend: function() {
-            $('.loading-div').show();
-        },
-        success: function (msg) {
-            $('.loading-div').hide();
-            if (msg.status == 1) {
-                $('.div-customer-info').html(msg.name);
-            } else {
-                myApp.alert(msg.message);
-                $('#txtcustid').focus();
-            }
-        }
-    });
-
-  }
-});
-
 
 $(document).on('click', '#btn-bill-pay', function () {
 
@@ -2758,3 +2719,4 @@ $(document).on('click', '#btn-exp-buy', function(){
     }
 
 });
+
