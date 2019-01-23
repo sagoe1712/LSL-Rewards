@@ -1318,7 +1318,7 @@ $(document).on('blur', '#txtcustid', function () {
                 $('.div-customer-info').html(msg.name);
             } else {
                 myApp.alert(msg.message);
-                $('#txtcustid').focus();
+                // $('#txtcustid').focus();
                 return false;
             }
         }
