@@ -518,7 +518,7 @@ $(document).on('click', '#btn-movie-buy', function () {
 
         let payload = {
             quantity: prod_quant,
-            price: total_movie_price,
+            price: movie_price,
             signature: prod_signature,
             email: email,
             phone_no: phone
@@ -882,7 +882,7 @@ var a = 1;
 $(document).on('change', '.drp-redeem', function () {
     var drpselect = $(this).val();
     var identity = $(this).attr('id');
-    $('#btn-real-redeem[data-identity="'+identity+'"]').attr('data-delivery_type', drpselect);
+    $('#btn-meal-redeem[data-identity="'+identity+'"]').attr('data-delivery_type', drpselect);
 
 });
 
@@ -1617,7 +1617,7 @@ $(document).on('click', '#btn-event-buy', function () {
 
         let exp_payload = {
             quantity: prod_quant,
-            price: totalshipping,
+            price: prdprice,
             signature: prod_signature,
             email: email,
             phone_no: phone
@@ -2139,7 +2139,7 @@ $(document).on('click', '#btn-checkout', function () {
             branch_id: branch_id,
             ref_no: ref_no,
             quantity: prod_quant,
-            price: tprice,
+            price: unitprice,
             delivery_type: delivery_type,
             varients: custvar,
             shipping_cost: totalshipping,
